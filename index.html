@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Amor 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to bottom, #ffeef2, #ffffff);
+      color: #4a4a4a;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 10px;
+      background-color: #ffcad4;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3em;
+      color: #a61c3c;
+      animation: fadeInDown 2s ease;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .photo {
+      background: #fff0f5;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .photo:hover {
+      transform: scale(1.02);
+    }
+
+    .photo img {
+      width: 45%;
+      margin-left: 150px;
+      border-radius: 10px;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-size: 1em;
+      text-align: center;
+      color: #7a003c;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #999;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2em;
+      }
+
+      .caption {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nosso Amor em Fotos 📸💘</h1>
+  </header>
+
+  <section class="gallery">
+    <!-- Foto 1 -->
+    <div class="photo">
+      <img src= "01.jpg" alt="Nossa primeira foto juntos">
+      <div class="caption">Nossa primeira foto juntos — Aqui no interclassse de 2024 a gente mal imaginava que aconteceria algo entre nós que seria tão Forte.</div>
+    </div>
+
+    <!-- Foto 2 -->
+    <div class="photo">
+      <img src="02.jpg" alt="Nosso passeio">
+      <div class="caption">Aquele dia inesquecível no parque 🌸 - onde eu conheci o kaynan a duda e a sua mãe.</div>
+    </div>
+
+    <!-- Foto 3 -->
+    <div class="photo">
+      <img src="03.jpg" alt="Aniversário">
+      <div class="caption"> primeira vez que fui na sua casa 🏠 - A primeira vez que eu fui no seu condominio e não podiamos ficar sozinhos então estavamos com o kaynan e a duda e nós jogamos sinuca.</div>
+    </div>
+
+    <!-- Adicione mais fotos abaixo seguindo o mesmo padrão -->
+
+    <div class="photo">
+      <img src="04.jpg" alt="Aniversário">
+      <div class="caption"> Te levei no shopping  - Aqui foi o dia onde saimos com o kaynan a duda o daniel eu e vc todos juntos, e eu acabei te comprando a Alice.</div>
+    </div>
+
+  </section>
+
+  <footer>
+    Feito com muito amor por você 💕 — Feliz Aniversário!
+  </footer>
+
+</body>
+</html>
